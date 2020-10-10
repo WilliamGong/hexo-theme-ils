@@ -28,6 +28,7 @@ style:
 menu:
   Home: /
   Archives: /archives
+  About: /about
   # Categories: /categories
   # Tags: /tags
   # Links: /links
@@ -41,7 +42,7 @@ menu:
 # See: https://github.com/hexojs/hexo-generator-feed
 # ----------------------------------------------------------------------------------
 rss:
-  enable: false
+  enable: true
 
 
 # ----------------------------------------------------------------------------------
@@ -74,10 +75,10 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: false
-    site_uv: false
-    site_pv: false
-    page_pv: false
+    enable: true
+    site_uv: true
+    site_pv: true
+    page_pv: true
 
 
 # ----------------------------------------------------------------------------------
@@ -90,13 +91,13 @@ local_search:
 
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
-  trigger: auto  # values: auto | manual
+  trigger: manual # values: auto | manual
 
   # Unescape html strings to the readable one.
   unescape: false
 
   # Preload the search data when the page loads.
-  preload: false
+  preload: true
 
 
 # ----------------------------------------------------------------------------------
@@ -134,7 +135,7 @@ code_copy:
 # Sidebar tools
 # ----------------------------------------------------------------------------------
 side_tools:
-  enable: false
+  enable: true
 
 
 # ----------------------------------------------------------------------------------
@@ -162,5 +163,5 @@ toc:
 # ----------------------------------------------------------------------------------
 magic:
   enable: true
-  scale: false    # scale effect when the mouse hover
-  shadow: false   # shadow effect when the mouse hover
+  scale: true # scale effect when the mouse hover
+  shadow: true # shadow effect when the mouse hover
