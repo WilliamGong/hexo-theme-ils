@@ -31,7 +31,7 @@ menu:
   About: /about
   # Categories: /categories
   # Tags: /tags
-  # Links: /links
+  Links: /links
   # About: /about
   # ...
 
@@ -149,7 +149,7 @@ back2top:
 # Table of Contents in the Sidebar
 # ----------------------------------------------------------------------------------
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
   number: true
