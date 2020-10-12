@@ -16,7 +16,7 @@ style:
   primary_color: "#0066CC"
 
   # favicon
-  favicon: images/favicon.png
+  favicon: images/favicon.ico
 
   # avatar
   avatar: images/avatar.png
